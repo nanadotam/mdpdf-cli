@@ -172,5 +172,3 @@ vs2015             night-owl       nord      gruvbox-dark
 ## License
 
 MIT © [Nana Amoako](https://github.com/nanadotam)
-
-Built with Soro Cloud Code
