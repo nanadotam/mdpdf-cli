@@ -2,7 +2,7 @@
 
 > Convert Markdown files to beautiful PDFs — locally, fast, no internet required.
 
-**By [Nana Amoako](https://github.com/nanadotam) **
+**By [Nana Amoako](https://portfolio.nanaamoako.com/) **
 
 ---
 
