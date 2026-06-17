@@ -1,0 +1,157 @@
+/* ────────────────────────────────────────────────────────────────────────────
+   mdpdf-cli — Apple theme
+   Uses -apple-system so headless Chrome renders San Francisco (SF Pro) on
+   macOS — the same typeface across iOS, iPadOS, and macOS system UIs.
+   Author: Nana Amoako · Built with Soro Cloud Code
+   ──────────────────────────────────────────────────────────────────────────── */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #1d1d1f;
+  background: #ffffff;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 52px 44px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Headings ─────────────────────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  color: #1d1d1f;
+  line-height: 1.15;
+  margin-top: 1.8em;
+  margin-bottom: 0.45em;
+  letter-spacing: -0.022em;
+}
+
+h1 { font-size: 2.1em;  font-weight: 800; letter-spacing: -0.03em; }
+h2 { font-size: 1.55em; font-weight: 700; }
+h3 { font-size: 1.22em; font-weight: 600; }
+h4 { font-size: 1.05em; font-weight: 600; }
+h5 { font-size: 0.95em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+h6 { font-size: 0.9em;  font-weight: 500; color: #6e6e73; }
+
+/* ── Body text ────────────────────────────────────────────────────────────── */
+
+p { margin: 0.85em 0; }
+
+a { color: #0071e3; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+strong { font-weight: 600; }
+em { font-style: italic; }
+
+/* ── Blockquote ───────────────────────────────────────────────────────────── */
+
+blockquote {
+  margin: 1.4em 0;
+  padding: 0.7em 1.2em;
+  border-left: 3.5px solid #0071e3;
+  background: #f5f5f7;
+  border-radius: 0 8px 8px 0;
+  color: #3a3a3c;
+  font-style: italic;
+}
+
+blockquote p { margin: 0; }
+
+/* ── Code ─────────────────────────────────────────────────────────────────── */
+
+code {
+  font-family: "SF Mono", ui-monospace, "Cascadia Code", "Fira Code", Menlo, monospace;
+  font-size: 0.87em;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  border-radius: 5px;
+  padding: 0.18em 0.45em;
+}
+
+pre {
+  background: #1c1c1e;
+  border-radius: 12px;
+  padding: 1.3em 1.5em;
+  overflow: auto;
+  margin: 1.4em 0;
+}
+
+pre code {
+  background: transparent;
+  color: #f5f5f7;
+  padding: 0;
+  font-size: 0.86em;
+  line-height: 1.65;
+}
+
+/* ── Tables ───────────────────────────────────────────────────────────────── */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.4em 0;
+  font-size: 0.9em;
+}
+
+thead { background: #f5f5f7; }
+
+th {
+  font-weight: 600;
+  text-align: left;
+  padding: 0.65em 1em;
+  border-bottom: 2px solid #d2d2d7;
+  color: #1d1d1f;
+}
+
+td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #e5e5ea;
+  vertical-align: top;
+}
+
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: #fbfbfd; }
+
+/* ── Lists ────────────────────────────────────────────────────────────────── */
+
+ul, ol {
+  padding-left: 1.6em;
+  margin: 0.65em 0;
+}
+
+li { margin: 0.35em 0; line-height: 1.6; }
+li > ul, li > ol { margin: 0.2em 0; }
+
+/* ── Task lists ───────────────────────────────────────────────────────────── */
+
+li input[type="checkbox"] {
+  margin-right: 0.5em;
+  accent-color: #0071e3;
+}
+
+/* ── Horizontal rule ──────────────────────────────────────────────────────── */
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5ea;
+  margin: 2.2em 0;
+}
+
+/* ── Images ───────────────────────────────────────────────────────────────── */
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 1.2em auto;
+}
+
+/* ── First heading spacing ────────────────────────────────────────────────── */
+
+h1:first-child,
+h2:first-child { margin-top: 0; }
